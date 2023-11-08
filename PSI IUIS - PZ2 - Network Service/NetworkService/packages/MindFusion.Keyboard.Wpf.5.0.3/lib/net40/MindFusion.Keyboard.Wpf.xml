@@ -1,0 +1,2231 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Keyboard.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.UI.Wpf.ExtendedKey">
+            <summary>
+            Represents a key that sends several key codes when pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.ExtendedKey.Keys">
+            <summary>
+            List of regular keys sent by this key.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.ExtendedKey.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseModifiers">true to release modifier keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.ExtendedKey.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new ExtendedKey instance.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.ExtendedKey.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.ExtendedKey.GetHashCode">
+            <summary>
+            Returns a hash code for this ExtendedKey. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.HangulKey">
+            <summary>
+            Represents keyboard keys that render Hangul letters for Korean IME.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.#ctor">
+            <summary>
+            Initializes a new instance of the HangulKey class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.#ctor(System.Char)">
+            <summary>
+            Initializes a new instance of the HangulKey class with specified character code.
+            </summary>
+            <param name="mainHangulSymbol">The character to send when this key is pressed.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.#ctor(System.Char,System.Char)">
+            <summary>
+            Initializes a new instance of the HangulKey class with specified character code.
+            </summary>
+            <param name="mainHangulSymbol">The character to send when this key is pressed.</param>
+            <param name="shiftedHangulSymbol">The character to send when this key is pressed together with shift.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.#ctor(System.Char,System.Object)">
+            <summary>
+            Initializes a new instance of the HangulKey class with specified character code and content.
+            </summary>
+            <param name="mainHangulSymbol">The character to send when this key is pressed.</param>
+            <param name="content">Content sent as input to the focused control.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.#ctor(System.Char,System.Char,System.Object)">
+            <summary>
+            Initializes a new instance of the HangulKey class with specified character code.
+            </summary>
+            <param name="mainHangulSymbol">The character to send when this key is pressed.</param>
+            <param name="shiftedHangulSymbol">The character to send when this key is pressed together with shift.</param>
+            <param name="content">Content sent as input to the focused control.</param>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.HangulKey.MainHangulSymbol">
+            <summary>
+            Gets or sets the Unicode character associated with this key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.HangulKey.ShiftedHangulSymbol">
+            <summary>
+            Gets or sets the Unicode character associated with this key on shift or caps lock press.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.HangulKey.Character">
+            <summary>
+            Gets the character label.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.HangulKey.LowerCase">
+            <summary>
+            Gets the unicode character label.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.HangulKey.UpperCase">
+            <summary>
+            Gets the shifted unicode character label.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.HangulKey.Repeat">
+            <summary>
+            Gets or sets how many times to send the key code when this key is pressed.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseModifiers">true to release modifier keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new HangulKey instance.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.HangulKey.GetHashCode">
+            <summary>
+            Returns a hash code for this HangulKey. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.ImeTableEntry.Key">
+            <summary>
+            Sequence of Hiragana symbols.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.ImeTableEntry.Lid">
+            <summary>
+            Some encoded gramatical rules seem encoded here?
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.ImeTableEntry.Rid">
+            <summary>
+            Some encoded gramatical rules seem encoded here?
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.ImeTableEntry.Cost">
+            <summary>
+            We should sort by these?
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.ImeTableEntry.Value">
+            <summary>
+            Translation for the entered Hiragana.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.KanaKey">
+            <summary>
+            Represents keyboard keys that render Kana letters for Japanese IME.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.#ctor">
+            <summary>
+            Initializes a new instance of the KanaKey class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.#ctor(System.Char)">
+            <summary>
+            Initializes a new instance of the KanaKey class with specified character code.
+            </summary>
+            <param name="character">The character to send when this key is pressed.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.#ctor(System.Char,System.Char)">
+            <summary>
+            Initializes a new instance of the KanaKey class with specified character code.
+            </summary>
+            <param name="character">The character to send when this key is pressed.</param>
+            <param name="smallLetter">Corresponding small kana.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.#ctor(System.Char,System.Object)">
+            <summary>
+            Initializes a new instance of the KanaKey class with specified character code and content.
+            </summary>
+            <param name="character">The character to send when this key is pressed.</param>
+            <param name="content">Content sent as input to the focused control.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.#ctor(System.Char,System.Char,System.Object)">
+            <summary>
+            Initializes a new instance of the KanaKey class with specified character code.
+            </summary>
+            <param name="character">The character to send when this key is pressed.</param>
+            <param name="smallLetter">Corresponding small kana.</param>
+            <param name="content">Content sent as input to the focused control.</param>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KanaKey.Character">
+            <summary>
+            Gets or sets the Kana associated with this key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KanaKey.SmallLetter">
+            <summary>
+            Gets or sets the small-letter Kana associated with this key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KanaKey.LowerCase">
+            <summary>
+            Gets the lower-case character label.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KanaKey.UpperCase">
+            <summary>
+            Gets the upper-case character label.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KanaKey.Repeat">
+            <summary>
+            Gets or sets how many times to send the key code when this key is pressed.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseModifiers">true to release modifier keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new KanaKey instance.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KanaKey.GetHashCode">
+            <summary>
+            Returns a hash code for this KanaKey. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KanaKey.IsDakuten">
+            <summary>
+            Specifies Dakuten modifier.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KanaKey.IsHandakuten">
+            <summary>
+            Specifies Handakuten modifier.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.Key">
+            <summary>
+            Represents a key in the keyboard.
+            </summary>
+            <example>
+            Examples of using <c>Key</c>:
+            
+            <code lang="XAML">
+            
+            Add namespace:
+            xmlns:vk="http://mindfusion.eu/keyboard/wpf"
+            
+            Create a keyboard instance and add a command button:
+            
+            &lt;Grid x:name="LayoutRoot"&gt;
+                &lt;Button Content="www.GOOGLE.com" x:Name="google" Click="google_Click" Margin="5" Focusable="False"/&gt;
+                &lt;vk:VirtualKeyboard x:Name="virtualKeyboard" Margin="5,50,5,5" /&gt;
+            &lt;/Grid&gt;
+            </code>
+            
+            <code lang="CS">
+            
+            using MindFusion.UI.Wpf;
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    virtualKeyboard.DefaultLayout = Serializer.Load(this.GetType().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"));
+                    virtualKeyboard.ForceUpdateLayout();
+               }
+               
+                private void google_Click(object sender, RoutedEventArgs e)
+               {
+                   virtualKeyboard.SendKey(
+                       new ExtendedKey()
+                       {
+                           Keys = new List&lt;Key&gt;() 
+                           {
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.W)){ Repeat =3},
+                               new RegularKey(190),
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.G)){ ShiftLock =true},
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.O)){ ShiftLock =true, Repeat =2},
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.G)){ ShiftLock =true},
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.L)){ ShiftLock =true},
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.E)){ ShiftLock =true},
+                               new RegularKey(190),
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.C)),
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.O)),
+                               new RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.M)),
+                           }
+                       }
+                       );
+               }
+            }
+            </code>
+            
+            <code lang="VB.NET">
+            
+            Imports MindFusion.UI.Wpf
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    virtualKeyboard.DefaultLayout = Serializer.Load(Of KeyboardLayout)(Me.[GetType]().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"))
+                    virtualKeyboard.ForceUpdateLayout()
+               End Sub
+               
+                Private Sub google_Click(ByVal sender As Object, ByVal e As EventArgs) Handles google.Click
+                    Dim keys As New List&lt;Key&gt;() 
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.W)).Repeat = 3)
+                    keys.Add(New RegularKey(190))
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.G)).ShiftLock = true)
+                    Dim rkey As New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.O))
+                    rkey.ShiftLock = true
+                    rkey.Repeat =2
+                    keys.Add(rkey)
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.G)).ShiftLock = true)
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.L)).ShiftLock = true)
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.E)).ShiftLock = true)
+                    keys.Add(New RegularKey(190))
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.C)))
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.O)))
+                    keys.Add(New RegularKey(Key.GetVirtualKeyKode(System.Windows.Input.Key.M)))
+                    
+                    virtualKeyboard.SendKey(New ExtendedKey().Keys = keys)
+                End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Content">
+            <summary>
+            Gets or sets the key's text content. Some descendant key classes send their content
+            as input to currently focused control; other ones only store their labels in it.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Image">
+            <summary>
+            Gets or sets relative path to an image that should be displayed inside this key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.IsSelected">
+            <summary>
+            IsSelected
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.IsLocked">
+            <summary>
+            IsLocked. Used only for shift, alt, altgr, control, caps lock and num lock.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.IsPressed">
+            <summary>
+            Set to true when this key is pressed down by the user.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.IsHovered">
+            <summary>
+            Gets whether the key is hovered by mouse.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Left">
+            <summary>
+            Horizontal position of the key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Top">
+            <summary>
+            Vertical position of the key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Width">
+            <summary>
+            The key's width.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Height">
+            <summary>
+            The key's height.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Backspace">
+            <summary>
+            The backspace virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Tab">
+            <summary>
+            The tab virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Enter">
+            <summary>
+            The enter virtual key. Virtual Key = 13
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Shift">
+            <summary>
+            The shift virtual key. Virtual Key = 16
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Ctrl">
+            <summary>
+            The control virtual key. Virtual Key = 17
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Alt">
+            <summary>
+            The alt virtual key. Virtual Key = 18
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.AltGr">
+            <summary>
+            The alt gr virtual key. Virtual Key = 165
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.PauseBreak">
+            <summary>
+            The pause / break virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.CapsLock">
+            <summary>
+            The caps lock virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Esc">
+            <summary>
+            The escape virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Space">
+            <summary>
+            The space virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.PageUp">
+            <summary>
+            The page up virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.PageDown">
+            <summary>
+            The page down virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.End">
+            <summary>
+            The end virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Home">
+            <summary>
+            The home virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.KeyLeft">
+            <summary>
+            The key left virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.KeyUp">
+            <summary>
+            The key up virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.KeyRight">
+            <summary>
+            The key right virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.KeyDown">
+            <summary>
+            The key down virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Insert">
+            <summary>
+            The insert virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Delete">
+            <summary>
+            The delete virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Windows">
+            <summary>
+            The Windows virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Context">
+            <summary>
+            The context menu virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F1">
+            <summary>
+            The F1 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F2">
+            <summary>
+            The F2 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F3">
+            <summary>
+            The F3 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F4">
+            <summary>
+            The F4 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F5">
+            <summary>
+            The F5 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F6">
+            <summary>
+            The F6 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F7">
+            <summary>
+            The F7 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F8">
+            <summary>
+            The F8 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F9">
+            <summary>
+            The F9 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F10">
+            <summary>
+            The F10 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F11">
+            <summary>
+            The F11 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.F12">
+            <summary>
+            The F12 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumLock">
+            <summary>
+            The num lock virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.ScrollLock">
+            <summary>
+            The scroll lock virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.PrtScr">
+            <summary>
+            The Print Screen virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Lang">
+            <summary>
+            Language rotation virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumPageUp">
+            <summary>
+            The numpad page up virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumPageDown">
+            <summary>
+            The numpad page down virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumEnd">
+            <summary>
+            The numpad end virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumHome">
+            <summary>
+            The numpad home virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumKeyLeft">
+            <summary>
+            The numpad key-left virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumKeyUp">
+            <summary>
+            The numpad key-up virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumKeyRight">
+            <summary>
+            The numpad key-right virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumKeyDown">
+            <summary>
+            The numpad key-down virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumInsert">
+            <summary>
+            The numpad insert virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumDelete">
+            <summary>
+            The numpad delete virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.Num5">
+            <summary>
+            The numpad 5 virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumDiv">
+            <summary>
+            The numpad / virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumMult">
+            <summary>
+            The numpad * virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumMinus">
+            <summary>
+            The numpad - virtual key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.Key.NumPlus">
+            <summary>
+            The numpad + virtual key.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.Wpf.Key.PropertyChanged">
+            <summary>
+            PropertyChanged
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseSpecialKeys">true to release modifier keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.Copy(MindFusion.UI.Wpf.Key)">
+            <summary>
+            Copies the properties of this key to specified one.
+            </summary>
+            <param name="key">Key</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.UpdateKey">
+            <summary>
+            Updates the key's labels for current language.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new Key instance.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.op_Equality(MindFusion.UI.Wpf.Key,MindFusion.UI.Wpf.Key)">
+            <summary>
+            Compares the specified keys for equality.
+            </summary>
+            <param name="key1">The first Key to compare.</param>
+            <param name="key2">The second Key to compare.</param>
+            <returns>true if the keys are equal, or false otherwise.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.op_Inequality(MindFusion.UI.Wpf.Key,MindFusion.UI.Wpf.Key)">
+            <summary>
+            Compares the specified keys for inequality.
+            </summary>
+            <param name="key1">The first Key to compare.</param>
+            <param name="key2">The second Key to compare.</param>
+            <returns>true if the keys are not equal, or false otherwise.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.GetHashCode">
+            <summary>
+            Returns a hash code for this Key. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.Key.GetVirtualKeyCode(System.Windows.Input.Key)">
+            <summary>
+            Gets the virtual key code corresponding to a System.Windows.Input.Key value.
+            </summary>
+            <param name="value">System.Windows.Input.Key value.</param>
+            <returns>int</returns>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.KeyboardLayout">
+            <summary>
+            Defines layout of keyboard keys.
+            </summary>
+            <example>
+            Examples of using <c>KeyboardLayout</c>:
+            
+            <code lang="XML">
+            Structure of keyboard layout saved in XML file (see "CustomLayout.xml" in sample projects):
+            
+            &lt;KeyboardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                &lt;Keys&gt;
+                    &lt;Key xsi:type="SpecialKey"&gt;
+                        &lt;Content xsi:type="xsd:string"&gt;Esc&lt;/Content&gt;
+                        &lt;Left&gt;30&lt;/Left&gt;
+                        &lt;Top&gt;10&lt;/Top&gt;
+                        &lt;Width&gt;40&lt;/Width&gt;
+                        &lt;Height&gt;40&lt;/Height&gt;
+                        &lt;VirtualKey&gt;27&lt;/VirtualKey&gt;
+                    &lt;/Key&gt; 
+                    ...
+                &lt;/Keys&gt;
+                &lt;Width&gt;720&lt;/Width&gt;
+                &lt;Height&gt;300&lt;/Height&gt;
+                &lt;KeyboardLayoutId&gt;67187713&lt;/KeyboardLayoutId&gt;
+            &lt;/KeyboardLayout&gt;
+            </code>
+            
+            <code lang="CS">
+            Add namespace:
+            
+            using MindFusion.UI.Wpf;
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    VirtualKeyboard virtualKeyboard = new VirtualKeyboard();
+                    virtualKeyboard.DefaultLayout = Serializer.Load(this.GetType().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"));
+                    LayoutRoot.Children.Add(virtualKeyboard);
+                    virtualKeyboard.ForceUpdateLayout();
+               }
+               
+                private void buttonDefaultLayout_Click(object sender, EventArgs e)
+                {
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.DefaultLayout();
+                }
+               
+               private void buttonExtendedLayout_Click(object sender, EventArgs e)
+               {
+                   virtualKeyboard.DefaultLayout = KeyboardLayout.ExtendedLayout();
+               }
+            } 
+            </code>
+            
+            <code lang="VB.NET">
+            Add namespace:
+            
+            Imports MindFusion.UI.Wpf
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    Dim virtualKeyboard As New VirtualKeyboard()
+                    virtualKeyboard.DefaultLayout = Serializer.Load(Of KeyboardLayout)(Me.[GetType]().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"))
+                    LayoutRoot.Children.Add(virtualKeyboard)
+                    virtualKeyboard.ForceUpdateLayout()
+               End Sub
+               
+                Private Sub buttonDefaultLayout_Click(ByVal sender As Object, ByVal e As EventArgs) Handles buttonDefaultLayout.Click
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.DefaultLayout()
+                End Sub
+                
+                Private Sub buttonExtendedLayout_Click(ByVal sender As Object, ByVal e As EventArgs) Handles buttonExtendedLayout.Click
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.ExtendedLayout()
+                End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KeyboardLayout.#ctor">
+            <summary>
+            Initializes a new instance of the KeyboardLayout class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KeyboardLayout.Keys">
+            <summary>
+            Gets or sets the keys displayed in this layout.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KeyboardLayout.Width">
+            <summary>
+            Gets or sets the keyboard width.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KeyboardLayout.Height">
+            <summary>
+            Gets or sets the keyboard height.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.KeyboardLayout.KeyboardLayoutId">
+            <summary>
+            Gets or sets the layout id.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KeyboardLayout.DefaultLayout">
+            <summary>
+            Create  keyboard layout depend on current language
+            </summary>
+            <returns>KeyboardLayout</returns>
+            <example>
+            Examples of using <c>DefaultLayout()</c>:
+            
+            <code lang="XML">
+            Example of structure of keyboard layout, which saved in XML file (for example: "Samples.CustomLayout.xml"):
+            
+            &lt;KeyboardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                &lt;Keys&gt;
+                    &lt;Key xsi:type="SpecialKey"&gt;
+                        &lt;Content xsi:type="xsd:string"&gt;Esc&lt;/Content&gt;
+                        &lt;Left&gt;30&lt;/Left&gt;
+                        &lt;Top&gt;10&lt;/Top&gt;
+                        &lt;Width&gt;40&lt;/Width&gt;
+                        &lt;Height&gt;40&lt;/Height&gt;
+                        &lt;VirtualKey&gt;27&lt;/VirtualKey&gt;
+                    &lt;/Key&gt; 
+                    ...
+                &lt;/Keys&gt;
+                &lt;Width&gt;720&lt;/Width&gt;
+                &lt;Height&gt;300&lt;/Height&gt;
+                &lt;KeyboardLayoutId&gt;67187713&lt;/KeyboardLayoutId&gt;
+            &lt;/KeyboardLayout&gt;
+            </code>
+            
+            <code lang="CS">
+            Add namespace:
+            
+            using MindFusion.UI.WinForms;
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    VirtualKeyboard virtualKeyboard = new VirtualKeyboard();
+                    virtualKeyboard.DefaultLayout = Serializer.Load(this.GetType().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"));        
+                    LayoutRoot.Children.Add(virtualKeyboard);
+                    virtualKeyboard.ForceUpdateLayout();
+               }
+               
+                private void buttonDefaultLayout_Click(object sender, EventArgs e)
+                {
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.DefaultLayout();
+                }
+               
+               private void buttonExtendedLayout_Click(object sender, EventArgs e)
+               {
+                   virtualKeyboard.DefaultLayout = KeyboardLayout.ExtendedLayout();
+               }
+            } 
+            </code>
+            
+            <code lang="VB.NET">
+            Add namespace:
+            
+            Imports MindFusion.UI.WinForms
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    Dim virtualKeyboard As New VirtualKeyboard()
+                    virtualKeyboard.DefaultLayout = Serializer.Load(Of KeyboardLayout)(Me.[GetType]().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"))
+                    LayoutRoot.Children.Add(virtualKeyboard)
+                    virtualKeyboard.ForceUpdateLayout()
+               End Sub
+               
+                Private Sub buttonDefaultLayout_Click(ByVal sender As Object, ByVal e As EventArgs) Handles buttonDefaultLayout.Click
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.DefaultLayout()
+                End Sub
+                
+                Private Sub buttonExtendedLayout_Click(ByVal sender As Object, ByVal e As EventArgs) Handles buttonExtendedLayout.Click
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.ExtendedLayout()
+                End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KeyboardLayout.ExtendedLayout">
+            <summary>
+            Create Extended keyboard layout depend on current language
+            </summary>
+            <returns>KeyboardLayout</returns>
+            <example>
+            Examples of using <c>ExtendedLayout()</c>:
+            
+            <code lang="XML">
+            Example of structure of keyboard layout, which saved in XML file (for example: "Samples.CustomLayout.xml"):
+            
+            &lt;KeyboardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                &lt;Keys&gt;
+                    &lt;Key xsi:type="SpecialKey"&gt;
+                        &lt;Content xsi:type="xsd:string"&gt;Esc&lt;/Content&gt;
+                        &lt;Left&gt;30&lt;/Left&gt;
+                        &lt;Top&gt;10&lt;/Top&gt;
+                        &lt;Width&gt;40&lt;/Width&gt;
+                        &lt;Height&gt;40&lt;/Height&gt;
+                        &lt;VirtualKey&gt;27&lt;/VirtualKey&gt;
+                    &lt;/Key&gt; 
+                    ...
+                &lt;/Keys&gt;
+                &lt;Width&gt;720&lt;/Width&gt;
+                &lt;Height&gt;300&lt;/Height&gt;
+                &lt;KeyboardLayoutId&gt;67187713&lt;/KeyboardLayoutId&gt;
+            &lt;/KeyboardLayout&gt;
+            </code>
+            
+            <code lang="CS">
+            Add namespace:
+            
+            using MindFusion.UI.Wpf;
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    VirtualKeyboard virtualKeyboard = new VirtualKeyboard();
+                    virtualKeyboard.DefaultLayout = Serializer.Load(this.GetType().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"));
+                    LayoutRoot.Children.Add(virtualKeyboard);
+                    virtualKeyboard.ForceUpdateLayout();
+               }
+               
+                private void buttonDefaultLayout_Click(object sender, EventArgs e)
+                {
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.DefaultLayout();
+                }
+               
+               private void buttonExtendedLayout_Click(object sender, EventArgs e)
+               {
+                   virtualKeyboard.DefaultLayout = KeyboardLayout.ExtendedLayout();
+               }
+            } 
+            </code>
+            
+            <code lang="VB.NET">
+            Add namespace:
+            
+            Imports MindFusion.UI.Wpf
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    Dim virtualKeyboard As New VirtualKeyboard()
+                    virtualKeyboard.DefaultLayout = Serializer.Load(Of KeyboardLayout)(Me.[GetType]().Assembly.GetManifestResourceStream("Samples.CustomLayout.xml"))
+                    LayoutRoot.Children.Add(virtualKeyboard)
+                    virtualKeyboard.ForceUpdateLayout()
+               End Sub
+               
+                Private Sub buttonDefaultLayout_Click(ByVal sender As Object, ByVal e As EventArgs) Handles buttonDefaultLayout.Click
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.DefaultLayout()
+                End Sub
+                
+                Private Sub buttonExtendedLayout_Click(ByVal sender As Object, ByVal e As EventArgs) Handles buttonExtendedLayout.Click
+                    virtualKeyboard.DefaultLayout = KeyboardLayout.ExtendedLayout()
+                End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KeyboardLayout.FromTemplate(MindFusion.UI.Wpf.KeyboardLayout,System.Boolean)">
+            <summary>
+            Creates keyboard layout from template.
+            </summary>
+            <param name="template">A KeyboardLayout template.</param>
+            <param name="autofill">Specifies whether virtual key codes should be set automatically.</param>
+            <returns>The new KeyboardLayout.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KeyboardLayout.ChangeLanguage(System.Boolean)">
+            <summary>
+            Change layout.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KeyboardLayout.Create(System.String)">
+            <summary>
+            Loads keyboard layout from a file.
+            </summary>
+            <param name="fileName">Path to a file containing layout XML.</param>
+            <returns>A KeyboardLayout instance.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.KeyboardLayout.Create(System.IO.Stream)">
+            <summary>
+            Loads keyboard layout from a stream.
+            </summary>
+            <param name="input">A stream containing layout XML.</param>
+            <returns>A KeyboardLayout instance.</returns>
+        </member>
+        <member name="E:MindFusion.UI.Wpf.KeyboardLayout.PropertyChanged">
+            <summary>
+            PropertyChanged event
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.KeyboardMode">
+            <summary>
+            Identifies keyboard layout modes.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyboardMode.Default">
+            <summary>
+            Default layout.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyboardMode.Extended">
+            <summary>
+            Extended layout.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyboardMode.Custom">
+            <summary>
+            Custom layout. You must design a layout and save it in Layouts folder
+            before using this mode. Or use TemplateLayout property to define keyboard common view.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.KeyLabels">
+            <summary>
+            Represents custom key labels.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyLabels.VirtualKey">
+            <summary>
+            Virtual key code.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyLabels.Shift">
+            <summary>
+            Label shown when Shift key is pressed down.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyLabels.Lower">
+            <summary>
+            Lower-case label.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyLabels.Alt">
+            <summary>
+            Alternative label.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.KeyLabels.Caps">
+            <summary>
+            Upper-case label.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.NumPadKey">
+            <summary>
+            Represents a num pad key.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NumPadKey.#ctor">
+            <summary>
+            Initializes a new instance of the NumPadKey class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NumPadKey.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the NumPadKey class with specified virtual key code.
+            </summary>
+            <param name="virtualKey">Virtual key code.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NumPadKey.#ctor(System.Int32,System.Object)">
+            <summary>
+            Initializes a new instance of the NumPadKey class with specified virtual key code and content.
+            </summary>
+            <param name="virtualKey">Virtual key code.</param>
+            <param name="content">Label of the key's alternative function.</param>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.NumPadKey.VirtualKey">
+            <summary>
+            Gets or sets the key code of this key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.NumPadKey.NumCase">
+            <summary>
+            Gets or sets the key label.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NumPadKey.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NumPadKey.GetHashCode">
+            <summary>
+            Returns a hash code for this NumPadKey. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NumPadKey.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseSpecialKeys">true to release special keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NumPadKey.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new NumPadKey instance.</returns>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.RegularKey">
+            <summary>
+            Represents regular keyboard keys that send character codes as input.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.#ctor">
+            <summary>
+            Initializes a new instance of the RegularKey class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the RegularKey class with specified virtual key code.
+            </summary>
+            <param name="virtualKey">Virtual key code.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.#ctor(System.Int32,System.Object)">
+            <summary>
+            Initializes a new instance of the RegularKey class with specified virtual key code and content.
+            </summary>
+            <param name="virtualKey">Virtual key code.</param>
+            <param name="content">Content sent as input to the focused control.</param>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.LowerCase">
+            <summary>
+            The lower-case label to display.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.UpperCase">
+            <summary>
+            The upper-case label to display.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.AlterCase">
+            <summary>
+            The alter-case label to display.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.CapitalCase">
+            <summary>
+            The capital-case label to display. 
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.OverrideLabel">
+            <summary>
+            An overriding label for all cases.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.AltLock">
+            <summary>
+            AltLock; obsolete.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.ShiftLock">
+            <summary>
+            ShiftLock; obsolete.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.AltGrLock">
+            <summary>
+            AltGrLock; obsolete.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.ControlLock">
+            <summary>
+            ControlLock; obsolete.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.VirtualKey">
+            <summary>
+            Gets or sets the virtual key code of this key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.Repeat">
+            <summary>
+            Gets or sets how many times to send the key code when this key is pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.RegularKey.CurrentCase">
+            <summary>
+            Gets current character label depending on state of keys such as shift, alt etc.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.GetHashCode">
+            <summary>
+            Returns a hash code for this RegularKey. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseModifiers">true to release modifier keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new RegularKey instance.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.RegularKey.UpdateKey">
+            <summary>
+            Updates the key's labels for current language.
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.SpecialKey">
+            <summary>
+            Represents special keys.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.#ctor">
+            <summary>
+            Initializes a new instace of the SpecialKey class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instace of the SpecialKey class with specified virtual key code.
+            </summary>
+            <param name="virtualKey">Virtual key code.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.#ctor(System.Int32,System.Object)">
+            <summary>
+            Initializes a new instace of the SpecialKey class with specified virtual key code and content.
+            </summary>
+            <param name="virtualKey">Virtual key code.</param>
+            <param name="content">The key's label.</param>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.SpecialKey.VirtualKey">
+            <summary>
+            Gets or sets the key code of this key.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.GetHashCode">
+            <summary>
+            Returns a hash code for this SpecialKey. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.UpdateKey">
+            <summary>
+            Updates the key's labels for current language.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseModifiers">true to release modifier keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.SpecialKey.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new SpecialKey instance.</returns>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.UnicodeKey">
+            <summary>
+            Represents keyboard keys that send unicode-character codes as input. 
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.UnicodeKey.#ctor">
+            <summary>
+            Initializes a new instance of the UnicodeKey class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.UnicodeKey.#ctor(System.Char)">
+            <summary>
+            Initializes a new instance of the UnicodeKey class with specified character code.
+            </summary>
+            <param name="character">The character to send when this key is pressed.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.UnicodeKey.#ctor(System.Char,System.Object)">
+            <summary>
+            Initializes a new instance of the UnicodeKey class with specified character code and content.
+            </summary>
+            <param name="character">The character to send when this key is pressed.</param>
+            <param name="content">Content sent as input to the focused control.</param>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.UnicodeKey.Character">
+            <summary>
+            Gets or sets the Unicode character associated with this key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.UnicodeKey.LowerCase">
+            <summary>
+            Gets the lower-case character label.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.UnicodeKey.UpperCase">
+            <summary>
+            Gets the upper-case character label.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.UnicodeKey.Repeat">
+            <summary>
+            Gets or sets how many times to send the key code when this key is pressed.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.UnicodeKey.Send(System.Boolean)">
+            <summary>
+            Sends this key to the foreground window.
+            </summary>
+            <param name="releaseModifiers">true to release modifier keys, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.UnicodeKey.Clone">
+            <summary>
+            Clones this key.
+            </summary>
+            <returns>A new UnicodeKey instance.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.UnicodeKey.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance and a specified Key object represent the same value.
+            </summary>
+            <param name="obj">A Key object to compare to this instance.</param>
+            <returns>true if obj is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.UnicodeKey.GetHashCode">
+            <summary>
+            Returns a hash code for this UnicodeKey. 
+            </summary>
+            <returns>The key's hash code.</returns>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.ValueSetConverter">
+            <summary>
+            Converts references to boolean values.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.ValueSetConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value.
+            </summary>
+            <param name="value">The value produced by the binding source.</param>
+            <param name="targetType">The type of the binding target property.</param>
+            <param name="parameter">The converter parameter to use.</param>
+            <param name="culture">The culture to use in the converter.</param>
+            <returns>A converted value.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.ValueSetConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value.
+            </summary>
+            <param name="value">The value that is produced by the binding target.</param>
+            <param name="targetType">The type to convert to.</param>
+            <param name="parameter">The converter parameter to use.</param>
+            <param name="culture">The culture to use in the converter.</param>
+            <returns>A converted value.</returns>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.VirtualKeyboard">
+            <summary>
+            Virtual Keyboard Control.
+            </summary>
+            <example>
+            Examples of using <c>VirtualKeyboard</c>:
+            
+            <code lang="XAML">
+            Add namespace:
+            
+            xmlns:vk="http://mindfusion.eu/keyboard/wpf"
+            
+            Creating keyboard instance:
+            
+            &lt;Grid x:name="LayoutRoot"&gt;
+                &lt;vk:VirtualKeyboard x:Name="virtualKeyboard" /&gt;
+            &lt;/Grid&gt;
+            
+            </code>
+            
+            <code lang="CS">
+            In code-behind:
+            
+            using MindFusion.UI.Wpf;
+            
+            Create keyboard instance in MainWindow.xaml.cs:
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    VirtualKeyboard virtualKeyboard = new VirtualKeyboard();
+                    LayoutRoot.Children.Add(virtualKeyboard);
+               }
+            } 
+            </code>
+            
+            <code lang="VB.NET">
+            Add namespace:
+            
+            Imports MindFusion.UI.Wpf
+            
+            Creating keyboard instance in MainWindow.xaml.vb:
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    Dim virtualKeyboard As New VirtualKeyboard()
+                    LayoutRoot.Children.Add(virtualKeyboard)
+               End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.#ctor">
+            <summary>
+            Initializes a new instance of VirtualKeyboard.
+            </summary>
+            <example>
+            Examples of using <c>VirtualKeyboard()</c>:
+            
+            <code lang="XAML">
+            Add namespace:
+            
+            xmlns:vk="http://mindfusion.eu/keyboard/wpf"
+            
+            Creating keyboard instance:
+            
+            &lt;Grid x:name="LayoutRoot"&gt;
+                &lt;vk:VirtualKeyboard x:Name="virtualKeyboard" /&gt;
+            &lt;/Grid&gt;
+            
+            </code>
+            
+            <code lang="CS">
+            Add namespace:
+            
+            using MindFusion.UI.Wpf;
+            
+            Creating keyboard instance in MainWindow.xaml.cs:
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    VirtualKeyboard virtualKeyboard = new VirtualKeyboard();
+                    LayoutRoot.Children.Add(virtualKeyboard);
+               }
+            } 
+            </code>
+            
+            <code lang="VB.NET">
+            Add namespace:
+            
+            Imports MindFusion.UI.Wpf
+            
+            Creating keyboard instance in MainWindow.xaml.vb:
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    Dim virtualKeyboard As New VirtualKeyboard()
+                    LayoutRoot.Children.Add(virtualKeyboard)
+               End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.Dispose">
+            <summary>
+            Detaches handlers of static events handled by this instance.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.Dispose(System.Boolean)">
+            <summary>
+            Detaches handlers of static events handled by this instance.
+            </summary>
+            <param name="disposing">true if called directly by user code, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.DisposeShared">
+            <summary>
+            Stops global threads.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnVisualParentChanged(System.Windows.DependencyObject)">
+            <summary>
+            Control.OnVisualParentChanged override.
+            </summary>
+            <param name="oldParent">The old parent.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnApplyTemplate">
+            <summary>
+            Control.OnApplyTemplate override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnPreviewMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Control.OnPreviewMouseDown override.
+            </summary>
+            <param name="e">MouseButtonEventArgs</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnPreviewStylusDown(System.Windows.Input.StylusDownEventArgs)">
+            <summary>
+            Control.OnPreviewStylusDown override.
+            </summary>
+            <param name="e">A StylusDownEventArgs instance containing data about the event.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnPreviewMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Control.OnPreviewMouseUp override.
+            </summary>
+            <param name="e">A MouseButtonEventArgs instance containing data about the event.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnPreviewStylusUp(System.Windows.Input.StylusEventArgs)">
+            <summary>
+            Control.OnPreviewStylusUp override.
+            </summary>
+            <param name="e">A StylusDownEventArgs instance containing data about the event.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnPreviewMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Control.OnPreviewMouseMove override.
+            </summary>
+            <param name="e">A MouseEventArgs instance containing data about the event.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.OnPreviewStylusMove(System.Windows.Input.StylusEventArgs)">
+            <summary>
+            Control.OnPreviewStylusMove override.
+            </summary>
+            <param name="e">A StylusEventArgs instance containing data about the event.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.SendKey(MindFusion.UI.Wpf.Key)">
+            <summary>
+            Sends the specified key input to active window.
+            </summary>
+            <param name="objKey">Key</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.ForceUpdateLayout">
+            <summary>
+            Updates the keyboard layout.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.Mode">
+            <summary>
+            Gets or sets the layout mode. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.ModeProperty">
+            <summary>
+            Identifies the Mode dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.DefaultLayout">
+            <summary>
+            Obsolete; Gets or sets the default kayboard layout. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.DefaultLayoutProperty">
+            <summary>
+            Identifies the DefaultLayout dependency property.
+            </summary>        
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.TemplateLayout">
+            <summary>
+            Gets or sets the keyboard's template layout. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.TemplateLayoutProperty">
+            <summary>
+            Identifies the TemplateLayout dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.InputLocale">
+            <summary>
+            Gets or sets the current input language. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.InputLocaleProperty">
+            <summary>
+            Identifies the InputLocale dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.LayoutsFolder">
+            <summary>
+            Gets or sets the folder where layout files are located. This is dependency property.
+            Language layout files are automatically loaded from specified folder when Mode is set to Custom.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.LayoutsFolderProperty">
+            <summary>
+            Identifies the LayoutsFolder dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.Layout">
+            <summary>
+            Gets the current keyboard layout. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.LayoutProperty">
+            <summary>
+            Identifies the Layout dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.PreventActivation">
+            <summary>
+            Gets or sets whether to prevent activation of parent window 
+            when users click on a keyboard's key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.IsStandAlone">
+            <summary>
+            Gets or sets whether the keyboard's host application contains only the keyboard
+            and sends input to external processes. This is a dependency property.
+            Set this property to false if the keyboard will be sending input to other
+            controls in same application. Set it to true if the application should
+            behave as Windows On-screen Keyboard tool and send keypresses to active window.
+            </summary>
+            <example>
+            Examples of using <c>IsStandAlone</c>:
+            
+            <code lang="XAML">
+            Add namespace:
+            
+            xmlns:vk="http://mindfusion.eu/keyboard/wpf"
+            
+            Creating keyboard instance:
+            
+            &lt;Grid x:name="LayoutRoot"&gt;
+                &lt;vk:VirtualKeyboard x:Name="virtualKeyboard" IsStandAlone="true" /&gt;
+            &lt;/Grid&gt;
+            
+            </code>
+            
+            <code lang="CS">
+            
+            using MindFusion.UI.Wpf;
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    VirtualKeyboard virtualKeyboard = new VirtualKeyboard();        
+                    LayoutRoot.Children.Add(virtualKeyboard);
+                    virtualKeyboard.IsStandAlone = true;
+               }
+            } 
+            </code>
+            
+            <code lang="VB.NET">
+            
+            Imports MindFusion.UI.Wpf
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    Dim virtualKeyboard As New VirtualKeyboard()
+                    LayoutRoot.Children.Add(virtualKeyboard)
+                    virtualKeyboard.IsStandAlone = true
+               End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.IsStandAloneProperty">
+            <summary>
+            Identifies the IsStandAlone dependency property
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.AutoFill">
+            <summary>
+            Gets or sets whether keyboard layout should be generated automatically
+            depending on the language (e.g. qwerty, azerty, etc layouts). This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.AutoFillProperty">
+            <summary>
+            Identifies the AutoFill dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.AutoReleaseModifierKeys">
+            <summary>
+            Gets or sets whether pressing a regular key automatically releases
+            modifier keys such as shift, alt, control etc. (except CapsLock).
+            This is a dependency property.
+            </summary>
+            <example>
+            Examples of using <c>AutoReleaseModifierKeys</c>:
+            
+            <code lang="XAML">
+            Add namespace:
+            
+            xmlns:vk="http://mindfusion.eu/keyboard/wpf"
+            
+            Creating keyboard instance:
+            
+            &lt;Grid x:name="LayoutRoot"&gt;
+                &lt;vk:VirtualKeyboard x:Name="virtualKeyboard" AutoReleaseModifierKeys="true" /&gt;
+            &lt;/Grid&gt;
+            
+            </code>
+            
+            <code lang="CS">
+            
+            using MindFusion.UI.Wpf;
+            
+            public partial class MainWindow : SkinnedWindow
+            {
+               public MainWindow()
+               {
+                   InitializeComponent();
+                   
+                    VirtualKeyboard virtualKeyboard = new VirtualKeyboard();        
+                    LayoutRoot.Children.Add(virtualKeyboard);
+                    virtualKeyboard.AutoReleaseModifierKeys = true;
+               }
+            } 
+            </code>
+            
+            <code lang="VB.NET">
+            
+            Imports MindFusion.UI.Wpf
+            
+            Partial Public Class MainWindow
+                Inherits SkinnedWindow
+                
+               Public Sub New()
+                   Me.InitializeComponent()
+                   
+                    Dim virtualKeyboard As New VirtualKeyboard()
+                    LayoutRoot.Children.Add(virtualKeyboard)
+                    virtualKeyboard.AutoReleaseModifierKeys = true
+               End Sub
+            End Class
+            </code>
+            </example>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.AutoReleaseModifierKeysProperty">
+            <summary>
+            Identifies the AutoReleaseModifierKeys dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.AutoRepeat">
+            <summary>
+            Gets or sets whether the component should synthesize keyboard events
+            repeatedly when a virtual key is pressed down, until the key is released.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.AutoRepeatProperty">
+            <summary>
+            Identifies the AutoRepeat dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.RepeatDelay">
+            <summary>
+            Specifies the initial delay in milliseconds before the component
+            starts repeating key-down events when AutoRepeat is enabled.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.RepeatDelayProperty">
+            <summary>
+            Identifies the RepeatDelay dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.RepeatRate">
+            <summary>
+            Gets or sets the delay in milliseconds between consecutive
+            key-down events synthesized in AutoRepeat mode.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.RepeatRateProperty">
+            <summary>
+            Identifies the RepeatRate dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.AutoUpdateCulture">
+            <summary>
+            Gets or sets whether the component should change the UI thread's
+            CurrentCulture whenever the input locale changes.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.AutoUpdateCultureProperty">
+            <summary>
+            Identifies the AutoUpdateCulture dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.PasswordMode">
+            <summary>
+            Gets or sets whether password mode is enabled. In password mode,
+            keys are not highlighted when hovered by mouse pointer or pressed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.PasswordModeProperty">
+            <summary>
+            Identifies the PasswordMode dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.AttachedWindow">
+            <summary>
+            Gets or sets the window handle of the parent window associated with this keyboard.
+            This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.AttachedWindowProperty">
+            <summary>
+            Identifies the AttachedWindow dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.Stretch">
+            <summary>
+            Gets or sets a stretch mode that determines how the keyboard
+            fits into the available space. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.VirtualKeyboard.StretchProperty">
+            <summary>
+            Identifies the Stretch dependency property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.ShiftLocked">
+            <summary>
+            Gets the state of the Shift key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.AltLocked">
+            <summary>
+            Gets the state of the Alt key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.AltGrLocked">
+            <summary>
+            Gets the state of the AltGr key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.ControlLocked">
+            <summary>
+            Gets the state of the Control key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.CapsLocked">
+            <summary>
+            Gets the state of the Caps lock key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.NumLocked">
+            <summary>
+            Gets the state of the Num lock key.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.ScrollLocked">
+            <summary>
+            Gets the state of the Scroll lock key.
+            </summary>
+        </member>
+        <member name="E:MindFusion.UI.Wpf.VirtualKeyboard.KeyPressed">
+            <summary>
+            Raised when a key has been pressed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyboard.LicenseKey">
+            <summary>
+            Gets or sets the license key of the control.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.SetKeyLabels(System.Globalization.CultureInfo,MindFusion.UI.Wpf.KeyLabels[])">
+            <summary>
+            Sets custom key labels to use for specified language.
+            </summary>
+            <param name="culture">A CultureInfo specifying the language whose labels to override.</param>
+            <param name="labels">An array of KeyLabels objects specifying custom labels.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.LoadImeTable(System.Globalization.CultureInfo,System.IO.DirectoryInfo)">
+            <summary>
+            Loads an IME table file for specified locale.
+            </summary>
+            <param name="locale">A CultureInfo specifying the locale.</param>
+            <param name="dictionaryPath">Path to the dictionary folder.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.LoadImeTable(System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Loads an IME table file for specified locale.
+            </summary>
+            <param name="locale">A CultureInfo specifying the locale.</param>
+            <param name="filePath">Path to the dictionary file.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.ChangeLanguage(System.Globalization.CultureInfo)">
+            <summary>
+            Change the current input language.
+            </summary>
+            <param name="culture">A CultureInfo object representing the input language.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.ChangeLanguage(System.UInt32)">
+            <summary>
+            Change the current input language.
+            </summary>
+            <param name="inputLocaleId">Input locale identifier to be activated.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyboard.ChangeLanguage(System.String)">
+            <summary>
+            Change the current input language.
+            </summary>
+            <param name="cultureName">A string containing culture name.</param>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.NativeMethods">
+            <summary>
+            Implements API functions for keyboard.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.NativeMethods.KeyboardHookStruct.vkCode">
+            <summary>
+            Specifies a virtual-key code. The code must be a value in the range 1 to 254. 
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.NativeMethods.KeyboardHookStruct.scanCode">
+            <summary>
+            Specifies a hardware scan code for the key. 
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.NativeMethods.KeyboardHookStruct.flags">
+            <summary>
+            Specifies the extended-key flag, event-injected flag, context code, and transition-state flag.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.NativeMethods.KeyboardHookStruct.time">
+            <summary>
+            Specifies the time stamp for this message.
+            </summary>
+        </member>
+        <member name="F:MindFusion.UI.Wpf.NativeMethods.KeyboardHookStruct.dwExtraInfo">
+            <summary>
+            Specifies extra information associated with the message. 
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.KeyboardHookStruct.ToString">
+            <summary>
+            Override ToString
+            </summary>
+            <returns>String</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.SetWindowPos(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.UInt32)">
+            <summary>
+            Changes the size, position, and Z order of a child, pop-up or top-level window.
+            </summary>
+            <param name="hWnd">A handle to the window.</param>
+            <param name="hWndInsertAfter">A handle to the window to precede the positioned window in the Z order. (HWND value)</param>
+            <param name="X">The new position of the left side of the window, in client coordinates.</param>
+            <param name="Y">The new position of the top of the window, in client coordinates.</param>
+            <param name="W">The new width of the window, in pixels.</param>
+            <param name="H">The new height of the window, in pixels.</param>
+            <param name="uFlags">The window sizing and positioning flags. (SWP value)</param>
+            <returns>Nonzero if function succeeds, zero if function fails.</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.#cctor">
+            <summary>
+            Static constructor
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.GetActiveKeyboardLayout">
+            <summary>
+            This method return active keyboard layout
+            </summary>
+            <returns>long</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.ChangeLanguage(System.Int64,System.String)">
+            <summary>
+            This method change current keyboard layout
+            </summary>
+            <param name="language">long</param>
+            <param name="cultureName">string</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.ChangeLanguage(System.Globalization.CultureInfo)">
+            <summary>
+            Change current keyboard layout.
+            </summary>
+            <param name="culture">CultureInfo</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.ChangeLanguage(System.UInt32)">
+            <summary>
+            Change current keyboard layout.
+            </summary>
+            <param name="inputLocaleId">uint</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.ChangeLanguage(System.String)">
+            <summary>
+            Change current keyboard layout.
+            </summary>
+            <param name="cultureName">string</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.SendKey(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Byte)">
+            <summary>
+            Send key to active window
+            </summary>
+            <param name="holdShift">bool</param>
+            <param name="holdControl">bool</param>
+            <param name="holdAlt">bool</param>
+            <param name="holdAltGr">bool</param>
+            <param name="keyCode">byte</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.SendKey(System.Byte)">
+            <summary>
+            This method send specified key to active vindow
+            </summary>
+            <param name="keyCode">byte</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.SendKey(System.String)">
+            <summary>
+            This method send content of key to active vindow
+            </summary>
+            <param name="content">Content of key.</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.NextLanguage">
+            <summary>
+            NextAltLanguage
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.VirtualKeyCodeToCharacters(System.Byte)">
+            <summary>
+            This method translate virtual key code to shifted and normal character. 
+            </summary>
+            <param name="keyCode">byte</param>
+            <returns>APIKEY</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.SetIsStandAlone(System.Boolean)">
+            <summary>
+            SetIsStandAlone
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.Initialize(System.Windows.Interop.HwndSource)">
+            <summary>
+            Initialize window for win proc
+            </summary>
+            <param name="hwndSource">HwndSource</param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.IsLocked(System.Byte)">
+            <summary>
+            Check if key is locked. Only for special keys like caps, shift etc ...
+            </summary>
+            <param name="keyCode">byte</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.UnlockModifiers">
+            <summary>
+            Unlock all modifier keys.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.Attach(System.IntPtr)">
+            <summary>
+            attach foreground window
+            </summary>
+            <param name="hwnd"></param>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.GetLanguageTag">
+            <summary>
+            return two letters ISO language name
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.WndProc(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr,System.Boolean@)">
+            <summary>
+            hook windows messages
+            </summary>
+            <param name="hwnd">IntPtr</param>
+            <param name="msg">int</param>
+            <param name="wParam">IntPtr</param>
+            <param name="lParam">IntPtr</param>
+            <param name="handled">ref bool</param>
+            <returns>IntPtr</returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.KeyboardHookProc(System.Int32,System.Int32,System.IntPtr)">
+            <summary>
+            hook keyboard messages
+            </summary>
+            <param name="nCode">int</param>
+            <param name="wParam">Int32</param>
+            <param name="lParam">IntPtr</param>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.Start">
+            <summary>
+            Start hooking keyboard.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.Stop">
+            <summary>
+            stop hooking keyboard
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.NativeMethods.ToggleModifierState(System.Byte)">
+            <summary>
+            lock key
+            </summary>
+            <param name="keyCode"></param>
+        </member>
+        <member name="E:MindFusion.UI.Wpf.NativeMethods.LayoutChanged">
+            <summary>
+            fires when layout was changed
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.APIKEY">
+            <summary>
+            this structure store 3 possible letters for key normal shifted and when altGr locked
+            </summary>
+        </member>
+        <member name="T:MindFusion.UI.Wpf.VirtualKeyEventArgs">
+            <summary>
+            Contains data about KeyPressed events.
+            </summary>
+        </member>
+        <member name="P:MindFusion.UI.Wpf.VirtualKeyEventArgs.Key">
+            <summary>
+            Gets an instance of a Key-derived class that identifies the pressed key.
+            </summary>
+        </member>
+        <member name="M:MindFusion.UI.Wpf.VirtualKeyEventArgs.#ctor(MindFusion.UI.Wpf.Key)">
+            <summary>
+            Initializes a new instance of the VirtualKeyEventArgs class.
+            </summary>
+            <param name="key">MindFusion.UI.Wpf.Key</param>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

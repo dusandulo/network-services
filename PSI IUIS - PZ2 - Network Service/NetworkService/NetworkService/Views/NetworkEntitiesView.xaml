@@ -1,0 +1,152 @@
+﻿<UserControl x:Class="NetworkService.Views.NetworkEntitiesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:kb="http://mindfusion.eu/keyboard/wpf"
+             xmlns:kbThemes="http://mindfusion.eu/themes/wpf"
+             xmlns:local="clr-namespace:NetworkService.Views"
+             xmlns:viewModel="clr-namespace:NetworkService.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="670" d:DesignWidth="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="62"/>
+            <RowDefinition Height="320"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--Title-->
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <Image Source="{Binding Source={StaticResource Logo}}" Margin="10" />
+            <TextBlock FontWeight="Bold" Text="Network Services" FontSize="25" Margin="30 15 15 15"/>
+        </StackPanel>
+        <!--Filter-->
+        <TextBlock FontWeight="Medium" Grid.Row="1" Grid.RowSpan="2" Text="Filter" FontSize="20"/>
+        <Button FontWeight="Medium" Foreground="White" Background="#666666" Command="{Binding ResetFilterCommand}" Content="Reset" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="88" Margin="235 5 0 0"/>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <TextBlock FontWeight="Medium" Text="Type" Margin="5 0 0 0"/>
+                <ComboBox Height="20" ItemsSource="{Binding ComboBoxItems}" SelectedItem="{Binding SelectedEntityTypeToFilter, Mode=TwoWay}" Grid.Column="0" Margin="10 2 10 0"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBlock FontWeight="Medium" Text="ID" Margin="5 0 0 0"/>
+                <TextBox Height="20" Text="{Binding SelectedIdMarginToFilterText, Mode=TwoWay}" Grid.Column="0" Margin="10 3 10 0">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="GotKeyboardFocus">
+                            <i:InvokeCommandAction Command="{Binding KeyBoardFocusedCommand}" 
+                                               CommandParameter="{Binding ElementName=search}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <RadioButton IsChecked="{Binding IsLessThanRadioButtonSelected, Mode=TwoWay}" Margin="2" />
+                <RadioButton IsChecked="{Binding IsGreaterThanRadioButtonSelected, Mode=TwoWay}" Margin="2 0 0 0" />
+                <RadioButton IsChecked="{Binding IsEqualsThanRadioButtonSelected, Mode=TwoWay}" Margin="2 2 0 0"/>
+            </StackPanel>
+            <StackPanel Grid.Column="3">
+                <TextBlock FontWeight="Bold">&lt;</TextBlock>
+                <TextBlock FontWeight="Bold" Text=">"/>
+                <TextBlock FontWeight="Bold" Text="="/>
+            </StackPanel>
+            <StackPanel Grid.Column="4">
+                <Button FontWeight="Medium" Foreground="White" Background="#666666" Command="{Binding FilterEntityCommand}" Content="Apply" Margin="5 15 5 5" Height="25"/>
+                <TextBlock Margin="10 0 0 0" Text="{Binding FilterErrorMessage}" Foreground="Red"/>
+            </StackPanel>
+        </Grid>
+        <!--Table View-->
+        <Border Grid.Row="3" Visibility="{Binding KeyboardNotVisible}">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                <DataGrid ItemsSource="{Binding EntitiesToShow}" Width="315" Height="300" Margin="0 10 0 0" SelectedItem="{Binding SelectedEntity}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserReorderColumns="False" CanUserResizeColumns="False" VerticalScrollBarVisibility="Hidden" RowHeight="20" IsReadOnly="True" SelectionMode="Single">
+                    <DataGrid.Resources>
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                        <Style TargetType="{x:Type DataGridCell}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type DataGridCell}">
+                                        <Grid Background="{TemplateBinding Background}">
+                                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="*"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                        <DataGridTextColumn Header="Type" Binding="{Binding Type.Name}" Width="90"/>
+                        <DataGridTextColumn Header="Value" Binding="{Binding Value}" Width="90"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </Border>
+        <!--Add, delete-->
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+            <TextBlock FontWeight="Medium" Text="Add" FontSize="20" Margin="5"/>
+            <Button FontWeight="Medium" Foreground="Black" Background="#ff8080" Command="{Binding DeleteEntityCommand}" Content="Delete" Margin="212 5 0 5" Width="71"/>
+        </StackPanel>
+        <Grid Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <TextBlock FontWeight="Medium" Text="ID" Margin="10 0 0 0"/>
+                <TextBox Height="20" Text="{Binding CurrentEntity.TextId, Mode=TwoWay}" Margin="10 3 10 0">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="GotKeyboardFocus">
+                            <i:InvokeCommandAction Command="{Binding KeyBoardFocusedCommand}" 
+                                               CommandParameter="{Binding ElementName=search}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <TextBlock Margin="10 3 0 0" Text="{Binding CurrentEntity.ValidationErrors[Id]}" Foreground="Red" Height="20"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBlock FontWeight="Medium" Text="Type" Margin="10 0 0 0"/>
+                <ComboBox ItemsSource="{Binding ComboBoxItems}" SelectedItem="{Binding CurrentEntityType.Name, Mode=TwoWay}" Grid.Column="0" Margin="10 2 10 0" Height="20"/>
+                <TextBlock Margin="10 3 0 0" Height="20" Text="{Binding CurrentEntityType.ValidationErrors[Name]}" Foreground="Red"/>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <TextBlock FontWeight="Medium" Text="Name" Margin="10 0 0 0"/>
+                <TextBox Height="20" Text="{Binding CurrentEntity.Name, Mode=TwoWay}" Grid.Column="0" Margin="10 3 10 0">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="GotKeyboardFocus">
+                            <i:InvokeCommandAction Command="{Binding KeyBoardFocusedCommand}" 
+                                               CommandParameter="{Binding ElementName=search}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <TextBlock Margin="10 3 0 0" Height="20" Text="{Binding CurrentEntity.ValidationErrors[Name]}" Foreground="Red"/>
+            </StackPanel>
+            <StackPanel Grid.Column="3">
+                <Button FontWeight="Medium" Foreground="White" Background="#666666" Command="{Binding AddEntityCommand}" Height="20" Grid.Column="4" Content="Add" Margin="5 18 5 61"/>
+            </StackPanel>
+        </Grid>
+        <!--Virtual keyboard-->
+        <Border Grid.Row="3" Visibility="{Binding KeyboardVisible}" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="25" BorderThickness="1" Margin="20 10">
+            <StackPanel>
+                <Button Content="X" Command="{Binding CloseKeyboard}" Width="20" Height="20" Margin="0 5 10 0" HorizontalAlignment="Right" VerticalAlignment="Center" Background="Red"/>
+                <kb:VirtualKeyboard AutoRepeat="False"  IsStandAlone="False" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5 0 5 5"/>
+            </StackPanel>
+        </Border>
+        <kbThemes:ColorSchemeChanger Visibility="Hidden" SelectedIndex="8"/>
+        
+    </Grid>
+</UserControl>

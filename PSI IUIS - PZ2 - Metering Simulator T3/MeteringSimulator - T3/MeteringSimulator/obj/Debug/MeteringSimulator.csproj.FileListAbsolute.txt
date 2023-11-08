@@ -1,0 +1,60 @@
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Metering Simulator T3\MeteringSimulator - T3\MeteringSimulator\obj\Debug\MeteringSimulator.pdb

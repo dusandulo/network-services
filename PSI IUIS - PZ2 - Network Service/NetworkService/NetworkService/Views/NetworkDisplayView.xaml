@@ -1,0 +1,352 @@
+﻿<UserControl x:Class="NetworkService.Views.NetworkDisplayView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetworkService.Views"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             mc:Ignorable="d" 
+             d:DesignHeight="670" d:DesignWidth="375">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="350"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <Image Source="{Binding Source={StaticResource Logo}}" Margin="10" />
+            <TextBlock FontWeight="Bold" Text="Network Display" FontSize="25" Margin="30 15 15 15"/>
+        </StackPanel>
+
+        <Canvas Height="340" Width="375" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,48,0,0" Grid.Row="1">
+            <Grid Margin="20 0 0 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <!--FIRST-->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Margin="5" Grid.Column="0">
+                        <Border BorderBrush="{Binding BorderBrushCollection[0]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[0]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="0"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="0"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="0"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="0" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="1">
+                        <Border BorderBrush="{Binding BorderBrushCollection[1]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[1]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="1"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="1"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="1"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="1" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="2">
+                        <Border BorderBrush="{Binding BorderBrushCollection[2]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[2]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="2"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="2"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="2"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="2" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="3">
+                        <Border BorderBrush="{Binding BorderBrushCollection[3]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[3]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="3"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="3"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="3"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="3" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <!--SECOND-->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Margin="5" Grid.Column="0">
+                        <Border BorderBrush="{Binding BorderBrushCollection[4]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[4]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="4"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="4"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="4"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="4" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="1">
+                        <Border BorderBrush="{Binding BorderBrushCollection[5]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[5]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="5"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="5"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="5"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="5" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="2">
+                        <Border BorderBrush="{Binding BorderBrushCollection[6]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[6]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="6"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="6"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="6"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="6" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="3">
+                        <Border BorderBrush="{Binding BorderBrushCollection[7]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[7]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="7"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="7"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="7"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="7" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="2"><!--THIRD-->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                        <ColumnDefinition Width="93.75"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Margin="5" Grid.Column="0">
+                        <Border BorderBrush="{Binding BorderBrushCollection[8]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[8]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="8"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="8"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="8"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="8" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="1">
+                        <Border BorderBrush="{Binding BorderBrushCollection[9]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[9]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="9"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="9"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="9"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="9" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="2">
+                        <Border BorderBrush="{Binding BorderBrushCollection[10]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[10]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="10"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="10"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="10"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="10" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Margin="5" Grid.Column="3">
+                        <Border BorderBrush="{Binding BorderBrushCollection[11]}" BorderThickness="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+                            <ContentControl Content="{Binding Path=CanvasCollection[11]}">
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Drop">
+                                        <i:InvokeCommandAction Command="{Binding DropEntityOnCanvas}" CommandParameter="11"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding LeftMouseButtonDownOnCanvas}" CommandParameter="11"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="MouseRightButtonDown">
+                                        <i:InvokeCommandAction Command="{Binding RightMouseButtonDownOnCanvas}" CommandParameter="11"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ContentControl>
+                        </Border>
+                        <Button Content="X" Command="{Binding OslobodiCanvas}" CommandParameter="11" Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 0 0 0">
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Canvas>
+        <Button FontWeight="Medium" Foreground="White" Background="#666666" Grid.Row="2" Margin="0 10 0 0" Content="Free all" Command="{Binding OslobodiCanvasSve}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70"/>
+        <Border Grid.Row="3" BorderBrush="DarkGray" BorderThickness="1" Height="150" Width="350" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+            <ListView x:Name="listViewEntityList" ItemsSource="{Binding EntitiesInList}" SelectedItem="{Binding SelectedEntity}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Type.ImgSrc}" Width="40" Height="40"></Image>
+                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="SelectionChanged">
+                        <i:InvokeCommandAction Command="{Binding SelectionChanged}" CommandParameter="{Binding ElementName=listViewEntityList}"/>
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                        <i:InvokeCommandAction Command="{Binding MouseLeftButtonUp}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ListView>
+
+
+        </Border>
+    </Grid>
+</UserControl>

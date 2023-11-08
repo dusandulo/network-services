@@ -1,0 +1,184 @@
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.baml
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI projekat\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.baml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.baml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.baml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.baml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.baml
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\PROJEKAT HCI\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.dll
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Licensing.dll
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Themes.Wpf.dll
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.xml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.baml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.baml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.baml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.baml
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCIII\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.dll
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Licensing.dll
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Themes.Wpf.dll
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.xml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.baml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCI RADI TASTATURA\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.dll
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Licensing.dll
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Themes.Wpf.dll
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.xml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.AssemblyReference.cache
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.baml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.baml
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+C:\Users\ducar\OneDrive\Desktop\HCI sve ok\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe.config
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.exe
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\NetworkService.pdb
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.dll
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.dll
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Licensing.dll
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Themes.Wpf.dll
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.dll
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\Microsoft.Expression.Interactions.xml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\MindFusion.Keyboard.Wpf.xml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\bin\Debug\System.Windows.Interactivity.xml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService_MarkupCompile.lref
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\App.baml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\MeasurementGraphView.baml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkDisplayView.baml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\Views\NetworkEntitiesView.baml
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.g.resources
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.Properties.Resources.resources
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.csproj.CopyComplete
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.exe
+\\Mac\Home\Desktop\Dusan Borovicanin PZ2\PSI IUIS - PZ2 - Network Service\NetworkService\NetworkService\obj\Debug\NetworkService.pdb
